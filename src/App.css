@@ -1,0 +1,49 @@
+
+.custom-rounded {
+  border-radius: 50%;
+}
+
+.reply-container {
+  background: linear-gradient(to bottom, #9bdb9b, #52af52);
+  border-radius: 10px;
+  padding: 10px 20px;
+  border-color: black;
+  max-width: 80%;
+  width: fit-content;
+  margin-bottom: 10px;
+  float: left;
+  align-self: flex-start;
+}
+
+.me {
+  background: linear-gradient(to bottom, #e0c7eb, #a452af);
+  border-radius: 10px;
+  padding: 10px 20px;
+  border-color: black;
+  max-width: 80%;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  font-weight: normal;
+}
+
+#conversations {
+  display: flex;
+  flex-direction: column;
+  width: 62.50rem;
+  overflow: auto;
+}
+
+.mother {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+span:last-child {
+  font-weight: bold;
+}
+
+
+
